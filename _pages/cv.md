@@ -11,37 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* B.S. in Mechanical Engineering, Karlsruhe Institue of Technology, 2019\
+Fields of study: Machine Learning, Data Science, Data Analytics \
+Bachelors Thesis: "Synthetic Training Data Generation with Generative Adversarial Networks"\
+Final Grade 1.3 - Awarded for being among the best four graduates of the year\
+* M.S. in Mechanical Engineering, Karsruhe Instutute of Technology, 2021\
+Fields of study: Machine Learning, Machine Vision, Automotive Engineering \
+Masters Thesis: "A Method for Early Evaluation of Timeseries Datasets without Prior Knowledge"\
+Final Grade 1.0 - Graduated with Distinction\
+* Ph.D in Behaviour Planning for Autonomous Driving, University of Tuebingen, 2024 (expected)\
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+Work experience
+======
+* Summer 2018: Internship
+  * TBA
+
+* Fall 2020: Student Assistant
+  * TBA
+
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -54,6 +47,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Engagements and Interests
 ======
-* Currently signed in to 43 different slack teams
+* linkit
+* speaker
+* enterpreneur
