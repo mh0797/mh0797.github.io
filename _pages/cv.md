@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mechanical Engineering, Karlsruhe Institue of Technology, 2019\
-Fields of study: Machine Learning, Data Science, Data Analytics \
-Bachelors Thesis: "Synthetic Training Data Generation with Generative Adversarial Networks"\
-Final Grade 1.3 - Awarded for being among the best four graduates of the year\
-* M.S. in Mechanical Engineering, Karsruhe Instutute of Technology, 2021\
+* Ph.D in Behaviour Planning for Autonomous Driving, University of Tuebingen, 2024 (expected)
+* M.S. in Mechanical Engineering, **Karlsruhe Institute of Technology**, 2021\
 Fields of study: Machine Learning, Machine Vision, Automotive Engineering \
 Masters Thesis: "A Method for Early Evaluation of Timeseries Datasets without Prior Knowledge"\
-Final Grade 1.0 - Graduated with Distinction\
-* Ph.D in Behaviour Planning for Autonomous Driving, University of Tuebingen, 2024 (expected)\
+**Final Grade 1.0** - Graduated with Distinction
+* B.S. in Mechanical Engineering, **Karlsruhe Institue of Technology**, 2019\
+Fields of study: Machine Learning, Data Science, Data Analytics \
+Bachelors Thesis: "Synthetic Training Data Generation with Generative Adversarial Networks"\
+**Final Grade 1.3** - Awarded for being among the best four graduates of the year
   
 Publications
 ======
