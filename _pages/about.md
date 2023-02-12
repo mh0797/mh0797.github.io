@@ -17,7 +17,7 @@ Research interests
 * Adversarial Robustness
 * Generative Models, especially CVAEs
 * Graph Neural Networks
-* Building NN Architectures with prior knowledge based inductive bias
+* Building NN Architectures with inductive bias based on prior knowledge
 
 Awards
 ======
