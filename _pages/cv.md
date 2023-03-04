@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Behaviour Planning for Autonomous Driving, **University of Tuebingen**, 2024 (expected)\
+* PhD in Behaviour Planning for Autonomous Driving, **University of Tuebingen**, 2024 (expected)\
 Fields of Research: Robust Imitation Learning w.r.t. distributional shifts and generalization to realistic adversarial examples, interactive behaviour planning, integration of prediction and planning.
 * M.S. in Mechanical Engineering, **Karlsruhe Institute of Technology**, 2021\
 Fields of study: Machine Learning, Machine Vision, Automotive Engineering \
