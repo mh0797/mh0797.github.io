@@ -4,5 +4,5 @@ collection: talks
 type: "Talk"
 permalink: /talks/group_talk_22_09_19
 venue: "CS Group Tuebingen"
-date: 2022-09-19
+date: 2022-19-09
 location: "Zoom"
