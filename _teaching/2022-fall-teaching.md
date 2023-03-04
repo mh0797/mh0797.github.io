@@ -4,7 +4,7 @@ collection: teaching
 type: "Proeminar"
 permalink: /teaching/2022-fall-teaching
 venue: "University of Tuebingen, Cognitive Sciences"
-date: 2022
+date: 2022-10-01
 location: "Tuebingen, Germany"
 ---
 

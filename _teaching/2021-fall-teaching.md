@@ -4,7 +4,7 @@ collection: teaching
 type: "Seminar"
 permalink: /teaching/2021-fall-teaching
 venue: "University of Tuebingen, Cognitive Sciences"
-date: 2021
+date: 2021-01-10
 location: "Tuebingen, Germany"
 ---
 
