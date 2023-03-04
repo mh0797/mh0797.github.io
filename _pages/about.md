@@ -10,7 +10,8 @@ redirect_from:
 
 Who am I?
 ======
-TBA
+Hi, I'm a PhD student specializing in machine learning-based behavior planning for autonomous driving. I'm particularly interested in robust imitation learning, which involves training an autonomous vehicle to imitate expert drivers and learn from their behavior in order to navigate complex traffic scenarios safely and efficiently, while maintaining broad generalization even in the presence of realistic adversarial examples and distributional shifts. 
+I'm passionate about staying on top of the latest advances in machine learning and autonomous driving, and I'm always eager to explore new avenues for innovation and improvement.
 
 Research interests
 ======

@@ -27,13 +27,14 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Work experience
+Experience
 ======
-* Summer 2018: Internship
-  * TBA
-
-* Fall 2020: Student Assistant
-  * TBA
+* Summer 2018: Internship at EM-Motive GmbH
+  * Intern in the development of methods for reliability engineering in development of electric drives
+* Fall 2019: Student Assistant at KIT
+  * Supervised students in the development of an intelligent system for the robot control using C++
+* Summer 2021: Masters Thesis at Robert Bosch GmbH
+  * Master’s Thesis on developing a method for early, automated, and fast evaluation of timeseries datasets with regard to their informational value
 
 Talks
 ======
@@ -47,8 +48,22 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Engagements and Interests
+Engagements
 ======
-* linkit
-* speaker
-* enterpreneur
+student group linkit at KIT (2021 - 2022)
+* led the student group of >100 members as a chairman 
+* mentored the “tech research group” reading club
+
+Hallgarten Media Engineering GbR
+* founded a web design company
+
+Interests
+======
+Teaching
+* taking over teaching duties every semester
+* committed to creating an engaging and supportive learning environment 
+
+Leadership
+* constantly working on improving my skills in this area
+* actively seeking out mentors to guide me
+* training my skills when supervising students
