@@ -8,5 +8,3 @@ venue: 'preprint on arxiv.org'
 paperurl: 'https://arxiv.org/abs/2306.07962'
 citation: 'Dauner, D., Hallgarten, M., Geiger, A. & Chitta, K. (2023). StParting with Misconceptions about Learning-based Vehicle Motion Planning. arXiv preprint arXiv:arXiv:2306.07962.'
 ---
-Paper TBA
-[Download paper here](#paper)
