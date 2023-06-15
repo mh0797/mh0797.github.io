@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/group_talk_23_06_18
 venue: "CVPR Workshop End-to-End Autonomous Driving: Emerging Tasks and Challenges"
-date: 2022-06-18
+date: 2023-06-18
 location: "Vancouver"
 ---
 I am thrilled to announce that our team CS_Tu won the 2023 nuPlan Challenge! 
