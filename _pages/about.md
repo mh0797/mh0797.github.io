@@ -18,10 +18,10 @@ Research interests
 * Adversarial Robustness
 * Generative Models, especially CVAEs
 * Graph Neural Networks
-* Building NN Architectures with inductive bias based on prior knowledge
 
 Awards
 ======
+* Winner of the 2023 nuPlan Competition hosted at CVPR Workshop End-to-End Autonomous Driving: Emerging Tasks and Challenges 
 * M.Sc. (final grade: 1.0): With distinction
 * B.Sc. (final grade: 1.3): Grashof Award: Being among the best four bachelor graduates at KIT in 2019
 
