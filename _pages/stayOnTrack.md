@@ -10,7 +10,7 @@ author_profile: false
 <p align="center">
     <h1 align="center">Stay on Track: A Frenet Wrapper to Overcome Off-road Trajectories in Vehicle Motion Prediction</h1>
     <h3 align="center"><a href="https://arxiv.org/abs/2306.00605">Paper</a> | <a href="files/StayOnTrack_SupMat.pdf">Supplementary</a> | Code (will be added after review) </h3>
-    <img alt="method overview" src="images/stayOnTrack/Method_overview.png">‚
+    <img alt="method overview" src="/images/stayOnTrack/Method_overview.png">‚
 </p>
 <br/>
 
@@ -43,7 +43,7 @@ Planning results on the proposed scene-attack benchmark. Please refer to the [Pa
 
 ### Perturbation 1: Single Turn
 | **Model**        |  **minADE** | **ORP** | **MR**  |
-|-------------------| ------------|--------------|------------|
+|-------------------|------------|--------------|------------|
 | [MultiPath++](https://arxiv.org/abs/2111.14973)*  | 3.139         | 65.5           | 96.5         |
 | MultiPath++SD (**ours**)       | 1.388       | 3.6         | 88.0           | 
 | [LaneGCN](https://arxiv.org/abs/2007.13732)        | 2.063        | 38.2         | 93.9           |
@@ -51,7 +51,7 @@ Planning results on the proposed scene-attack benchmark. Please refer to the [Pa
 
 ### Perturbation 2: Double Turn
 | **Model**        |  **minADE** | **ORP** | **MR**  |
-|-------------------| ------------|--------------|------------|
+|-------------------|------------|--------------|------------|
 | [MultiPath++](https://arxiv.org/abs/2111.14973)*  | 2.574         | 67.1           | 96.3         |
 | MultiPath++SD (**ours**)       | 1.132       | 3.7         | 78.5           | 
 | [LaneGCN](https://arxiv.org/abs/2007.13732)        | 2.372        | 63.9         | 94.4           |
@@ -59,7 +59,7 @@ Planning results on the proposed scene-attack benchmark. Please refer to the [Pa
 
 ### Perturbation 3: Rippe Road
 | **Model**        |  **minADE** | **ORP** | **MR**  |
-|-------------------| ------------|--------------|------------|
+|-------------------|------------|--------------|------------|
 | [MultiPath++](https://arxiv.org/abs/2111.14973)*  | 3.549         | 72.9           | 97.9         |
 | MultiPath++SD (**ours**)       | 1.331       | 3.5         | 85.2           | 
 | [LaneGCN](https://arxiv.org/abs/2007.13732)        | 3.094        | 61.2         | 96.2           |
@@ -67,7 +67,7 @@ Planning results on the proposed scene-attack benchmark. Please refer to the [Pa
 
 ### Qualitative Results
 <div align="center">
-<img src="images/stayOnTrack/Qual_res.jpg" />
+<img src="/images/stayOnTrack/Qual_res.jpg" />
 </div>
 <p>
 From top to bottom two original and two perturbed scenes are shown. Centrelines used by the SD models are shown in green state history in yellow. Predicted trajectories and ground truth are shown in blue and red, respectively. In the top example, the TV has just passed the branching point so that only the straight centreline is detected. The SD models are still able to predict the right-turn mode, significantly off the reference centreline. The second row demonstrates the increased diversity of SD model predictions. The third row shows deviations from the reference line. In the bottom example, the SD models adapt to a difficult perturbation, while the original models predict only off-road trajectories.
