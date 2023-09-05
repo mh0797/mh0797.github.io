@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Stay On Track"
+permalink: /stayOnTrack/
+author_profile: false
+---
+
+{% include base_path %}
+
 <p align="center">
     <h1 align="center">Stay on Track: A Frenet Wrapper to Overcome Off-road Trajectories in Vehicle Motion Prediction</h1>
     <h3 align="center"><a href="https://arxiv.org/abs/2306.00605">Paper</a> | <a href="files/StayOnTrack_SupMat.pdf">Supplementary</a> | Code (will be added after review) </h3>
