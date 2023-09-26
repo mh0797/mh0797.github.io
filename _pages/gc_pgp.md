@@ -34,7 +34,7 @@ author_profile: true
 </div>
 
 ## Results
-Please find planning results on the *Val14* benchmark in the [README](../../../../../../README.md). Please refer to the [paper](https://arxiv.org/abs/2302.07753) for more evaluations.
+Please find planning results on the *Val14* benchmark in the [tuPlan Garage](https://github.com/autonomousvision/tuplan_garage/blob/main/README.md). Please refer to the [paper](https://arxiv.org/abs/2302.07753) for more evaluations.
 
 ## Parameters
 * **`smooth_output_trajectory`**: if set to `True` the output trajectory is interpolated and smoothed before passing it to the controller.
