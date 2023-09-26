@@ -30,7 +30,7 @@ author_profile: true
 ## Method
 > We propose a novel goal-conditioning method. Our key insight is that conditioning prediction on a navigation goal at the behaviour level outperforms other widely adopted methods, with the additional benefit of increased model interpretability. Moreover, our Method can be applied at inference time only. Hence, no ground-truth navigation command is required during training.
 <div align="center">
-<img src="../../../../../../assets/gc-pgp/model_overview.png" />
+<img src="../images/gc_pgp_model_overview.png" />
 </div>
 
 ## Results
