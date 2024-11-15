@@ -11,8 +11,4 @@
 *.egg-info
 
 # files
-*.log
-*.pkl
-*.jpg
-*.pcd
 **/.DS_Store
