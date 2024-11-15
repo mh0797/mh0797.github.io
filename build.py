@@ -136,6 +136,7 @@ def get_paper_entry(entry_key, entry):
 
 def get_teaching_entry(entry_key, entry):
     imgs={
+        "proseminar": "assets/img/teaching/academia.svg",
         "seminar": "assets/img/teaching/seminar.svg",
         "lecture": "assets/img/teaching/lecture.svg",
     }
