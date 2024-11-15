@@ -32,13 +32,13 @@ def get_personal_data():
                     <a href="https://www.linkedin.com/in/marcel-hallgarten-441412226" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
                     <div id="demo" class="collapse">
-                    <span style="font-weight: bold;">Awards:</span>
-                    In 2015, I graduated among the top five of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>.
-                    In 2019 I received the Grashof award for Academic Excellence for my Bachelor's degree. Moreover, my Master"s degree was obtained with distinction.
-                    During my PhD studies, I won the 2023 <a href="https://opendrivelab.com/challenge2023/">nuPlan Competition</a> hosted at CVPR Workshop End-to-End Autonomous Driving: Emerging Tasks and Challenges.
-                    As part of my PhD journey with Bosch, I participated in the first <a href="https://www.linkedin.com/posts/bosch-research_boschresearchfamily-phd-scienceslam-activity-7112434706515652609-huof/">Bosch PhD Science Slam</a>, where I was among the five finalists.
-                    In addition, I won the <a href="https://www.marga.net">Marga Business Simulation</a> with my team of fellow Bosch PhD students in 2024.
-                </div>
+                        <span style="font-weight: bold;">Awards:</span>
+                        In 2015, I graduated among the top five of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>.
+                        In 2019 I received the Grashof award for Academic Excellence for my Bachelor's degree. Moreover, my Master"s degree was obtained with distinction.
+                        During my PhD studies, I won the 2023 <a href="https://opendrivelab.com/challenge2023/">nuPlan Competition</a> hosted at CVPR Workshop End-to-End Autonomous Driving: Emerging Tasks and Challenges.
+                        As part of my PhD journey with Bosch, I participated in the first <a href="https://www.linkedin.com/posts/bosch-research_boschresearchfamily-phd-scienceslam-activity-7112434706515652609-huof/">Bosch PhD Science Slam</a>, where I was among the five finalists.
+                        In addition, I won the <a href="https://www.marga.net">Marga Business Simulation</a> with my team of fellow Bosch PhD students in 2024.
+                    </div>
                 </p>
     """
     footer = """
@@ -134,6 +134,28 @@ def get_paper_entry(entry_key, entry):
     s += """ </div> </div> </div>"""
     return s
 
+def get_teaching_entry(entry_key, entry):
+    imgs={
+        "seminar": "assets/img/teaching/seminar.svg",
+        "lecture": "assets/img/teaching/lecture.svg",
+    }
+    s = """<div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-1">"""
+    s += f"""<img src="{imgs[entry.fields['type'].lower()]}" class="img-fluid img-thumbnail" alt="Project image">"""
+    s += """</div><div class="col-sm-11">"""
+
+    artefacts = ['year', 'type', 'course', 'institution', 'desc']
+    assert all([k in entry.fields.keys() for k in artefacts]), f'Teaching entry must contain {artefacts}, but got {entry.fields.keys()}'
+    s += f"""{entry.fields['type']}: <span style="font-weight: bold;">{entry.fields['course']}</span><br>"""
+    s += f"""<span style="font-style: italic;">{entry.fields['institution']}</span>, {entry.fields['year']}<br>"""
+
+    course_id = entry.fields['course'].replace(' ', '_').lower() + '_' + entry.fields['year']
+    s += f"""<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{course_id}" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-regular fa-file-lines"></i> Description</button>"""
+    s += f"""<div id="{course_id}" class="collapse">
+        {entry.fields['desc']}
+    </div>"""
+
+    s += """ </div> </div> </div>"""
+    return s
 
 def get_talk_entry(entry_key, entry):
     s = """<div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3">"""
@@ -164,6 +186,15 @@ def get_publications_html():
         s+= get_paper_entry(k, bib_data.entries[k])
     return s
 
+def get_teaching_html():
+    parser = bibtex.Parser()
+    bib_data = parser.parse_file('teaching_list.bib')
+    keys = bib_data.entries.keys()
+    s = ""
+    for k in keys:
+        s+= get_teaching_entry(k, bib_data.entries[k])
+    return s
+
 def get_talks_html():
     parser = bibtex.Parser()
     bib_data = parser.parse_file('talk_list.bib')
@@ -176,6 +207,7 @@ def get_talks_html():
 def get_index_html():
     pub = get_publications_html()
     talks = get_talks_html()
+    teaching = get_teaching_html()
     name, bio_text, footer = get_personal_data()
     s = f"""
     <!doctype html>
@@ -214,6 +246,12 @@ def get_index_html():
                     <div class="col-sm-12" style="">
                         <h4>Publications</h4>
                         {pub}
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 1em;">
+                    <div class="col-sm-12" style="">
+                        <h4>Teaching</h4>
+                        {teaching}
                     </div>
                 </div>
                 <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
